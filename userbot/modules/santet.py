@@ -11,7 +11,7 @@ async def typewriter(typew):
     await typew.edit("`Mencari Nama Orang Ini...`")
     sleep(1)
     await typew.edit("`Santet Online Segera Dilakukan`")
-    sleep(1)
+    sleep(0.03)
     await typew.edit("`Santet dari nishfu akan berangskat`")
     sleep(1)
     await typew.edit("0%")
@@ -315,7 +315,7 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Target Berhasil Tersantet Online:v`")
+    await typew.edit("`Target Berhasil Tersantet Online..Haha rasakan kenikmatan cinta:v`")
 
 
 CMD_HELP.update({
